@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boss On Demand - Your Startup Boss for Hire</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="logo.jpeg" alt="Boss On Demand" class="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#problem">The Problem</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact" class="nav-cta">Get Started</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="container hero-container">
+            <div class="hero-badge">Accountability as a Service</div>
+            <h1 class="hero-title">
+                You have the skills.<br>
+                You have the idea.<br>
+                <span class="gradient-text">You need a boss.</span>
+            </h1>
+            <p class="hero-subtitle">
+                You crush it at work every day. But your own startup? It's been "almost ready" for months.
+                Hire me as your boss - I'll give you deadlines, check-ins, and the push you need to actually execute.
+            </p>
+            <div class="hero-cta-group">
+                <a href="#contact" class="btn btn-primary btn-lg">Start Executing Today</a>
+                <a href="#how-it-works" class="btn btn-ghost btn-lg">See How It Works</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="72">0</span><span class="stat-suffix">%</span>
+                    <span class="stat-label">of side projects never launch</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-target="3">0</span><span class="stat-suffix">x</span>
+                    <span class="stat-label">faster with accountability</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-target="1">0</span><span class="stat-suffix"></span>
+                    <span class="stat-label">boss is all it takes</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Problem Section -->
+    <section class="section problem-section" id="problem">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">The Problem</span>
+                <h2 class="section-title">Sound familiar?</h2>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card" data-delay="0">
+                    <div class="problem-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <h3>"I'll start next week"</h3>
+                    <p>You keep pushing your startup to tomorrow. At work, you'd never miss a deadline - but without one, nothing moves.</p>
+                </div>
+                <div class="problem-card" data-delay="100">
+                    <div class="problem-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    </div>
+                    <h3>"I have the skills"</h3>
+                    <p>You're a top performer at your job. You can build anything. But your own project sits at 20% complete... for months.</p>
+                </div>
+                <div class="problem-card" data-delay="200">
+                    <div class="problem-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3>"Nobody's watching"</h3>
+                    <p>No standup. No sprint review. No one asking "where are we on that feature?" Without external pressure, motivation dies.</p>
+                </div>
+                <div class="problem-card" data-delay="300">
+                    <div class="problem-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                    </div>
+                    <h3>"I keep quitting"</h3>
+                    <p>You've started 3, 5, maybe 10 projects. None made it to launch. Not because you can't - because no one held you to it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="section solution-section">
+        <div class="container">
+            <div class="solution-content">
+                <div class="solution-text">
+                    <span class="section-tag">The Solution</span>
+                    <h2 class="section-title">Hire me as your boss.</h2>
+                    <p class="solution-description">
+                        I'm your Boss On Demand - the push you never had for your side project.
+                        I'll help you set deadlines, run check-ins, and keep you on track.
+                        The work is yours. The momentum is on me.
+                    </p>
+                    <div class="platform-tags">
+                        <span class="platform-tag">WhatsApp</span>
+                        <span class="platform-tag">Email</span>
+                        <span class="platform-tag">Zoom</span>
+                        <span class="platform-tag">Google Meet</span>
+                        <span class="platform-tag">Google Drive</span>
+                    </div>
+                </div>
+                <div class="solution-visual">
+                    <div class="chat-mockup">
+                        <div class="chat-header">
+                            <div class="chat-avatar">B</div>
+                            <div>
+                                <div class="chat-name">Boss On Demand</div>
+                                <div class="chat-status">Online</div>
+                            </div>
+                        </div>
+                        <div class="chat-messages">
+                            <div class="chat-msg boss">Hey! Sprint 2 ends Friday. How's the landing page coming?</div>
+                            <div class="chat-msg user">Almost done, just need to hook up payments.</div>
+                            <div class="chat-msg boss">Great. Payments integration by Wednesday EOD. I'll check in then. No excuses.</div>
+                            <div class="chat-msg user">Deal.</div>
+                            <div class="chat-msg boss">That's what I like to hear. Execute.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="section flow-section" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">How It Works</span>
+                <h2 class="section-title">From idea to launch in 4 steps</h2>
+            </div>
+            <div class="flow-timeline">
+                <div class="flow-line"></div>
+                <div class="flow-step" data-step="1">
+                    <div class="flow-step-marker">
+                        <span>1</span>
+                    </div>
+                    <div class="flow-step-content">
+                        <h3>Free Intro Call</h3>
+                        <p>We hop on a quick call. You tell me about your project, where you're stuck, and what's been holding you back. I figure out how to push you.</p>
+                    </div>
+                </div>
+                <div class="flow-step" data-step="2">
+                    <div class="flow-step-marker">
+                        <span>2</span>
+                    </div>
+                    <div class="flow-step-content">
+                        <h3>We Map Out Your Roadmap</h3>
+                        <p>I help you break your project into sprints with suggested deadlines. No vague "someday" goals - concrete milestones with dates you commit to.</p>
+                    </div>
+                </div>
+                <div class="flow-step" data-step="3">
+                    <div class="flow-step-marker">
+                        <span>3</span>
+                    </div>
+                    <div class="flow-step-content">
+                        <h3>I Keep Pushing You</h3>
+                        <p>Regular check-ins where I follow up, ask the hard questions, and remind you what you committed to. I bring the pressure - you bring the work.</p>
+                    </div>
+                </div>
+                <div class="flow-step" data-step="4">
+                    <div class="flow-step-marker">
+                        <span>4</span>
+                    </div>
+                    <div class="flow-step-content">
+                        <h3>You Ship</h3>
+                        <p>With the right structure and pressure, you finally launch. Not "almost ready." Not "one day." The goal is to get you there - but only you can cross the finish line.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What You Get Section -->
+    <section class="section features-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What You Get</span>
+                <h2 class="section-title">The structure you've been missing</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    </div>
+                    <h4>Suggested Deadlines</h4>
+                    <p>I help you set real dates and remind you when they're coming. No more "when I get to it."</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <h4>Regular Check-ins</h4>
+                    <p>Weekly 1-on-1 calls plus async messages throughout the week.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <h4>Sprint Planning Assistance</h4>
+                    <p>I help you break your project into actionable sprints with clear milestones.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <h4>Honest Push-Back</h4>
+                    <p>I'll call it out when you're slipping. You hired me to push you - but the execution is always yours.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                    </div>
+                    <h4>Progress Tracking</h4>
+                    <p>See how far you've come. Celebrate wins. Identify blockers early.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section pricing-section" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Pricing</span>
+                <h2 class="section-title">Invest in actually executing</h2>
+                <p class="section-subtitle">How much is your unlaunched idea costing you?</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-name">Kickstart</div>
+                    <div class="pricing-desc">For those just getting started</div>
+                    <div class="pricing-price">$450<span class="pricing-period">/mo</span></div>
+                    <ul class="pricing-features">
+                        <li>Weekly 1-on-1 call (30 min)</li>
+                        <li>Async check-ins 2x/week</li>
+                        <li>Sprint planning assistance</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-block">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-name">Full Throttle</div>
+                    <div class="pricing-desc">For serious builders</div>
+                    <div class="pricing-price">$600<span class="pricing-period">/mo</span></div>
+                    <ul class="pricing-features">
+                        <li>Weekly 1-on-1 call (60 min)</li>
+                        <li>Daily async check-ins</li>
+                        <li>Roadmap &amp; sprint planning assistance</li>
+                        <li>Priority response time</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-name">Custom</div>
+                    <div class="pricing-desc">For teams &amp; special needs</div>
+                    <div class="pricing-price">Let's Talk</div>
+                    <ul class="pricing-features">
+                        <li>Everything in Full Throttle</li>
+                        <li>Multiple team members</li>
+                        <li>Custom cadence &amp; format</li>
+                        <li>Strategic guidance included</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-block">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Real Human Section -->
+    <section class="section human-section">
+        <div class="container">
+            <div class="human-banner">
+                <div class="human-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </div>
+                <h2>100% Real Human. Zero AI.</h2>
+                <p>No bots. No automated messages. No algorithms deciding your deadlines. When you hire Boss On Demand, you get a real person who knows your name, understands your project, and genuinely cares if you execute.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What builders are saying</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">"I dreamed of opening my own Pilates studio for years but never got past the planning stage. Boss On Demand helped me break it into steps - finding a space, branding, building a client list. Within 3 months I had a fully operating studio. I just needed someone to push me."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">S</div>
+                        <div>
+                            <div class="testimonial-name">Shira S.</div>
+                            <div class="testimonial-role">Pilates Instructor, opened her own studio</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">"I was a solo realtor for years, always saying I'd build my own agency 'someday.' Boss On Demand gave me the structure to actually do it - hiring agents, setting up operations, building a brand. Now I run a full-blast real estate agency. I just needed the accountability."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">E</div>
+                        <div>
+                            <div class="testimonial-name">Ella F.</div>
+                            <div class="testimonial-role">Realtor, built her own real estate agency</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">"My furniture company ran on paper and phone calls for 15 years. I knew I needed to go digital but had no idea where to start and kept putting it off. Boss On Demand helped me map it out - CRM, inventory system, online presence - and pushed me to actually do it. We scaled like crazy once the systems were in place."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">Y</div>
+                        <div>
+                            <div class="testimonial-name">Yoni S.</div>
+                            <div class="testimonial-role">Furniture business owner, went fully digital</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / CTA Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Let's Go</span>
+                <h2 class="section-title">Ready to stop dreaming<br>and start executing?</h2>
+                <p class="section-subtitle">Reach out now. Your future self will thank you.</p>
+            </div>
+            <div class="contact-cards">
+                <a href="mailto:eliyahus613@gmail.com" class="contact-card email-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </div>
+                    <div class="contact-label">Email Me</div>
+                    <div class="contact-value">eliyahus613@gmail.com</div>
+                    <div class="contact-hint">Click to open your email client</div>
+                </a>
+                <a href="https://wa.me/9720553090795" target="_blank" rel="noopener" class="contact-card whatsapp-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </div>
+                    <div class="contact-label">WhatsApp Me</div>
+                    <div class="contact-value">055-309-0795</div>
+                    <div class="contact-hint">Click to start a chat</div>
+                </a>
+            </div>
+            <p class="contact-note">Free intro call - no commitment, no pitch. Just a conversation about your project.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <img src="logo.jpeg" alt="Boss On Demand" class="logo-img">
+                </a>
+                <p>Your startup boss for hire.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#problem">The Problem</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Boss On Demand. Stop planning. Start executing.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

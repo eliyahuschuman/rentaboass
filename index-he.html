@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boss On Demand - הבוס של הסטארטאפ שלך</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-he.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="logo.jpeg" alt="Boss On Demand" class="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#problem">הבעיה</a></li>
+                <li><a href="#how-it-works">איך זה עובד</a></li>
+                <li><a href="#pricing">מחירים</a></li>
+                <li><a href="#contact" class="nav-cta">בואו נתחיל</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="תפריט">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="container hero-container">
+            <div class="hero-badge">אחריותיות כשירות</div>
+            <h1 class="hero-title">
+                יש לך את הכישורים.<br>
+                יש לך את הרעיון.<br>
+                <span class="gradient-text">חסר לך בוס.</span>
+            </h1>
+            <p class="hero-subtitle">
+                כל בוקר אתה מגיע לעבודה ומספק. דדליינים? מרוסקים. פרויקטים? סגור.
+                אבל הרעיון שאתה עובד עליו בלילות? הוא "כמעט מוכן" כבר חודשים.
+                ההבדל הוא לא כישרון - זה שאף אחד לא מחזיק אותך לזה. עד עכשיו.
+            </p>
+            <div class="hero-cta-group">
+                <a href="#contact" class="btn btn-primary btn-lg">מתחילים לבצע היום</a>
+                <a href="#how-it-works" class="btn btn-ghost btn-lg">איך זה עובד?</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="72">0</span><span class="stat-suffix">%</span>
+                    <span class="stat-label">מפרויקטי הצד לא יוצאים לאור</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-target="3">0</span><span class="stat-suffix">x</span>
+                    <span class="stat-label">מהיר יותר עם אחריותיות</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-target="1">0</span><span class="stat-suffix"></span>
+                    <span class="stat-label">בוס זה כל מה שצריך</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Problem Section -->
+    <section class="section problem-section" id="problem">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">הבעיה</span>
+                <h2 class="section-title">נשמע מוכר?</h2>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card" data-delay="0">
+                    <div class="problem-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <h3>"אני מתחיל שבוע הבא"</h3>
+                    <p>אתה דוחה את הסטארטאפ שלך למחר, שוב ושוב. בעבודה לעולם לא היית מפספס דדליין - אבל בלי אחד, שום דבר לא זז.</p>
+                </div>
+                <div class="problem-card" data-delay="100">
+                    <div class="problem-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    </div>
+                    <h3>"יש לי את הכישורים"</h3>
+                    <p>אתה עובד מצטיין. אתה יכול לבנות הכל. אבל הפרויקט שלך תקוע על 20%... כבר חודשים.</p>
+                </div>
+                <div class="problem-card" data-delay="200">
+                    <div class="problem-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3>"אף אחד לא עוקב"</h3>
+                    <p>אין סטנדאפ. אין סקירת ספרינט. אף אחד לא שואל "איפה אנחנו עם הפיצ'ר הזה?" בלי לחץ חיצוני, המוטיבציה מתה.</p>
+                </div>
+                <div class="problem-card" data-delay="300">
+                    <div class="problem-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                    </div>
+                    <h3>"אני כל פעם מוותר"</h3>
+                    <p>התחלת 3, 5, אולי 10 פרויקטים. אף אחד לא הגיע להשקה. לא כי אתה לא מסוגל - כי אף אחד לא החזיק אותך לזה.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="section solution-section">
+        <div class="container">
+            <div class="solution-content">
+                <div class="solution-text">
+                    <span class="section-tag">הפתרון</span>
+                    <h2 class="section-title">תשכור אותי כבוס שלך.</h2>
+                    <p class="solution-description">
+                        אני ה-Boss On Demand שלך - הדחיפה שמעולם לא היה לך לפרויקט הצד שלך.
+                        אני אעזור לך לקבוע דדליינים, אנהל פגישות מעקב, ואשמור אותך על המסלול.
+                        העבודה שלך. המומנטום עליי.
+                    </p>
+                    <div class="platform-tags">
+                        <span class="platform-tag">WhatsApp</span>
+                        <span class="platform-tag">אימייל</span>
+                        <span class="platform-tag">Zoom</span>
+                        <span class="platform-tag">Google Meet</span>
+                        <span class="platform-tag">Google Drive</span>
+                    </div>
+                </div>
+                <div class="solution-visual">
+                    <div class="chat-mockup">
+                        <div class="chat-header">
+                            <div class="chat-avatar">B</div>
+                            <div>
+                                <div class="chat-name">Boss On Demand</div>
+                                <div class="chat-status">מחובר</div>
+                            </div>
+                        </div>
+                        <div class="chat-messages">
+                            <div class="chat-msg boss">היי! ספרינט 2 נגמר ביום שישי. מה המצב עם דף הנחיתה?</div>
+                            <div class="chat-msg user">כמעט סיימתי, רק צריך לחבר את התשלומים.</div>
+                            <div class="chat-msg boss">מעולה. אינטגרציית תשלומים עד יום רביעי סוף יום. אני בודק אז. בלי תירוצים.</div>
+                            <div class="chat-msg user">סגור.</div>
+                            <div class="chat-msg boss">ככה אני אוהב לשמוע. תבצע את זה.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="section flow-section" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">איך זה עובד</span>
+                <h2 class="section-title">מרעיון להשקה ב-4 צעדים</h2>
+            </div>
+            <div class="flow-timeline">
+                <div class="flow-line"></div>
+                <div class="flow-step" data-step="1">
+                    <div class="flow-step-marker">
+                        <span>1</span>
+                    </div>
+                    <div class="flow-step-content">
+                        <h3>שיחת היכרות חינם</h3>
+                        <p>נקפוץ לשיחה קצרה. תספר לי על הפרויקט שלך, איפה אתה תקוע, ומה מעכב אותך. אני אבין איך לדחוף אותך.</p>
+                    </div>
+                </div>
+                <div class="flow-step" data-step="2">
+                    <div class="flow-step-marker">
+                        <span>2</span>
+                    </div>
+                    <div class="flow-step-content">
+                        <h3>מתכננים מפת דרכים</h3>
+                        <p>אני עוזר לך לפרק את הפרויקט לספרינטים עם דדליינים מוצעים. בלי מטרות מעורפלות של "יום אחד" - אבני דרך קונקרטיות שאתה מתחייב אליהן.</p>
+                    </div>
+                </div>
+                <div class="flow-step" data-step="3">
+                    <div class="flow-step-marker">
+                        <span>3</span>
+                    </div>
+                    <div class="flow-step-content">
+                        <h3>אני ממשיך לדחוף אותך</h3>
+                        <p>פגישות מעקב קבועות שבהן אני עוקב, שואל שאלות קשות, ומזכיר לך למה התחייבת. אני מביא את הלחץ - אתה מביא את העבודה.</p>
+                    </div>
+                </div>
+                <div class="flow-step" data-step="4">
+                    <div class="flow-step-marker">
+                        <span>4</span>
+                    </div>
+                    <div class="flow-step-content">
+                        <h3>אתה מבצע</h3>
+                        <p>עם המבנה והלחץ הנכונים, סוף סוף אתה מבצע. לא "כמעט מוכן". לא "יום אחד". המטרה היא להגיע לשם - אבל רק אתה יכול לחצות את קו הסיום.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What You Get Section -->
+    <section class="section features-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">מה אתה מקבל</span>
+                <h2 class="section-title">המבנה שחסר לך</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    </div>
+                    <h4>דדליינים מוצעים</h4>
+                    <p>אני עוזר לך לקבוע תאריכים אמיתיים ומזכיר לך כשהם מתקרבים. בלי עוד "כשאגיע לזה".</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <h4>פגישות מעקב קבועות</h4>
+                    <p>שיחות 1-על-1 שבועיות בתוספת הודעות אסינכרוניות לאורך השבוע.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <h4>סיוע בתכנון ספרינטים</h4>
+                    <p>אני עוזר לך לפרק את הפרויקט לספרינטים פעילים עם אבני דרך ברורות.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <h4>פידבק ישיר</h4>
+                    <p>אני אגיד לך כשאתה מחליק. שכרת אותי כדי לדחוף אותך - אבל הביצוע תמיד שלך.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                    </div>
+                    <h4>מעקב התקדמות</h4>
+                    <p>תראה כמה רחוק הגעת. נחגוג הצלחות. נזהה חסמים מוקדם.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section pricing-section" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">מחירים</span>
+                <h2 class="section-title">תשקיע בלבצע באמת</h2>
+                <p class="section-subtitle">כמה עולה לך הרעיון שלא השקת?</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-name">התחלה</div>
+                    <div class="pricing-desc">למי שרק מתחיל</div>
+                    <div class="pricing-price">$450<span class="pricing-period">/חודש</span></div>
+                    <ul class="pricing-features">
+                        <li>שיחת 1-על-1 שבועית (30 דק')</li>
+                        <li>הודעות מעקב 2 פעמים בשבוע</li>
+                        <li>סיוע בתכנון ספרינטים</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-block">בואו נתחיל</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">הכי פופולרי</div>
+                    <div class="pricing-name">גז עד הסוף</div>
+                    <div class="pricing-desc">לבונים רציניים</div>
+                    <div class="pricing-price">$600<span class="pricing-period">/חודש</span></div>
+                    <ul class="pricing-features">
+                        <li>שיחת 1-על-1 שבועית (60 דק')</li>
+                        <li>הודעות מעקב יומיות</li>
+                        <li>סיוע במפת דרכים ותכנון ספרינטים</li>
+                        <li>זמן תגובה מועדף</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-block">בואו נתחיל</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-name">מותאם אישית</div>
+                    <div class="pricing-desc">לצוותים וצרכים מיוחדים</div>
+                    <div class="pricing-price">בואו נדבר</div>
+                    <ul class="pricing-features">
+                        <li>הכל שב"גז עד הסוף"</li>
+                        <li>מספר חברי צוות</li>
+                        <li>קצב ופורמט מותאם אישית</li>
+                        <li>הכוונה אסטרטגית כלולה</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-block">צרו קשר</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Real Human Section -->
+    <section class="section human-section">
+        <div class="container">
+            <div class="human-banner">
+                <div class="human-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </div>
+                <h2>100% בן אדם אמיתי. אפס בינה מלאכותית.</h2>
+                <p>בלי בוטים. בלי הודעות אוטומטיות. בלי אלגוריתמים שמחליטים על הדדליינים שלך. כשאתה שוכר את Boss On Demand, אתה מקבל בן אדם אמיתי שמכיר את השם שלך, מבין את הפרויקט שלך, ובאמת אכפת לו שתבצע.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">המלצות</span>
+                <h2 class="section-title">מה בונים אומרים</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">"חלמתי לפתוח סטודיו פילאטיס משלי שנים אבל אף פעם לא עברתי את שלב התכנון. Boss On Demand עזר לי לפרק את זה לצעדים - מציאת מקום, מיתוג, בניית רשימת לקוחות. תוך 3 חודשים היה לי סטודיו פעיל. פשוט הייתי צריכה מישהו שידחוף אותי."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">ש</div>
+                        <div>
+                            <div class="testimonial-name">שירה ס.</div>
+                            <div class="testimonial-role">מדריכת פילאטיס, פתחה סטודיו משלה</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">"הייתי סוכנת נדל"ן עצמאית שנים, תמיד אמרתי שאבנה סוכנות משלי 'יום אחד.' Boss On Demand נתן לי את המבנה לעשות את זה באמת - גיוס סוכנים, הקמת תפעול, בניית מותג. היום אני מנהלת סוכנות נדל"ן מלאה. פשוט הייתי צריכה את האחריותיות."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">א</div>
+                        <div>
+                            <div class="testimonial-name">אלה פ.</div>
+                            <div class="testimonial-role">סוכנת נדל"ן, הקימה סוכנות משלה</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">"חברת הרהיטים שלי רצה על נייר ושיחות טלפון 15 שנה. ידעתי שאני צריך לעבור לדיגיטל אבל לא ידעתי מאיפה להתחיל וכל הזמן דחיתי. Boss On Demand עזר לי למפות את זה - CRM, מערכת מלאי, נוכחות אונליין - ודחף אותי באמת לעשות את זה. צמחנו כמו משוגעים ברגע שהמערכות היו במקום."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">י</div>
+                        <div>
+                            <div class="testimonial-name">יוני ס.</div>
+                            <div class="testimonial-role">בעל עסק רהיטים, עבר לדיגיטל</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / CTA Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">יאללה</span>
+                <h2 class="section-title">מוכן להפסיק לחלום<br>ולהתחיל לבצע?</h2>
+                <p class="section-subtitle">תפנה עכשיו. העצמי העתידי שלך יודה לך.</p>
+            </div>
+            <div class="contact-cards">
+                <a href="mailto:eliyahus613@gmail.com" class="contact-card email-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </div>
+                    <div class="contact-label">שלח אימייל</div>
+                    <div class="contact-value">eliyahus613@gmail.com</div>
+                    <div class="contact-hint">לחץ כדי לפתוח את תוכנת המייל</div>
+                </a>
+                <a href="https://wa.me/9720553090795" target="_blank" rel="noopener" class="contact-card whatsapp-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </div>
+                    <div class="contact-label">שלח וואטסאפ</div>
+                    <div class="contact-value">055-309-0795</div>
+                    <div class="contact-hint">לחץ כדי להתחיל צ'אט</div>
+                </a>
+            </div>
+            <p class="contact-note">שיחת היכרות חינם - בלי מחויבות, בלי פיץ'. רק שיחה על הפרויקט שלך.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <img src="logo.jpeg" alt="Boss On Demand" class="logo-img">
+                </a>
+                <p>הבוס של הסטארטאפ שלך.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#problem">הבעיה</a>
+                <a href="#how-it-works">איך זה עובד</a>
+                <a href="#pricing">מחירים</a>
+                <a href="#contact">צור קשר</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Boss On Demand. תפסיק לתכנן. תתחיל לבצע.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

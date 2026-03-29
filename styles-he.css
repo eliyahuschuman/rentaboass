@@ -1,0 +1,58 @@
+/* ===== RTL Overrides for Hebrew ===== */
+
+body {
+    font-family: 'Heebo', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Timeline line flipped to right side */
+.flow-line {
+    left: auto;
+    right: 28px;
+}
+
+.flow-step {
+    transform: translateX(20px);
+}
+
+.flow-step.visible {
+    transform: translateX(0);
+}
+
+/* Pricing feature checkmarks on the right */
+.pricing-features li {
+    padding-left: 0;
+    padding-right: 28px;
+}
+
+.pricing-features li::before {
+    left: auto;
+    right: 0;
+}
+
+/* Chat messages alignment */
+.chat-msg.boss {
+    align-self: flex-start;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 4px;
+}
+
+.chat-msg.user {
+    align-self: flex-end;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 4px;
+}
+
+/* Solution grid - keep visual on left in RTL */
+.solution-content {
+    direction: rtl;
+}
+
+/* Ensure proper text alignment */
+.solution-text .section-title {
+    text-align: right;
+}
+
+/* Nav CTA spacing fix */
+.nav-links {
+    gap: 32px;
+}
